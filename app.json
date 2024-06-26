@@ -1,0 +1,15 @@
+{
+  "name": "voice_buddy_parent",
+  "displayName": "voice_buddy_parent",
+  "version": "0.0.1",
+  "expo": {
+    "extra": {
+      "eas": {
+        "projectId": "ec30f250-e8a5-4b57-92d1-8965e3226c91"
+      }
+    },
+    "ios": {
+      "buildNumber": "0.0.1"
+    }
+  }
+}

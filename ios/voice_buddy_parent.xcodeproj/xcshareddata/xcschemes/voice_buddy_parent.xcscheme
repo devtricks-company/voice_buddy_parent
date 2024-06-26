@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "voice_buddy_parent_parent.app"
+               BuildableName = "voice_buddy_parent.app"
                BlueprintName = "voice_buddy_parent"
                ReferencedContainer = "container:voice_buddy_parent.xcodeproj">
             </BuildableReference>
@@ -26,24 +26,8 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES">
-      <TestPlans>
-         <TestPlanReference
-            reference = "container:TestPlan.xctestplan">
-         </TestPlanReference>
-      </TestPlans>
-      <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "voice_buddy_parentTests.xctest"
-               BlueprintName = "voice_buddy_parentTests"
-               ReferencedContainer = "container:voice_buddy_parent.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-      </Testables>
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      shouldAutocreateTestPlan = "YES">
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
@@ -60,7 +44,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "voice_buddy_parent_parent.app"
+            BuildableName = "voice_buddy_parent.app"
             BlueprintName = "voice_buddy_parent"
             ReferencedContainer = "container:voice_buddy_parent.xcodeproj">
          </BuildableReference>
@@ -77,7 +61,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "voice_buddy_parent_parent.app"
+            BuildableName = "voice_buddy_parent.app"
             BlueprintName = "voice_buddy_parent"
             ReferencedContainer = "container:voice_buddy_parent.xcodeproj">
          </BuildableReference>

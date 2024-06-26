@@ -33,11 +33,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00E356EE1AD99517003FC87E /* voice_buddy_parentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = voice_buddy_parentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* voice_buddy_parentTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = voice_buddy_parentTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* voice_buddyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = voice_buddyTests.m; sourceTree = "<group>"; };
 		1056330723185197CF09A892 /* Pods-voice_buddy_parent-voice_buddy_parentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-voice_buddy_parent-voice_buddy_parentTests.release.xcconfig"; path = "Target Support Files/Pods-voice_buddy_parent-voice_buddy_parentTests/Pods-voice_buddy_parent-voice_buddy_parentTests.release.xcconfig"; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* voice_buddy_parent_parent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = voice_buddy_parent_parent.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07F961A680F5B00A75B9A /* voice_buddy_parent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = voice_buddy_parent.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = voice_buddy/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = voice_buddy/AppDelegate.mm; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = voice_buddy/Images.xcassets; sourceTree = "<group>"; };
@@ -155,8 +155,8 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* voice_buddy_parent_parent.app */,
-				00E356EE1AD99517003FC87E /* voice_buddy_parentTests.xctest */,
+				13B07F961A680F5B00A75B9A /* voice_buddy_parent.app */,
+				00E356EE1AD99517003FC87E /* voice_buddy_parentTest.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -205,7 +205,7 @@
 			);
 			name = voice_buddy_parentTests;
 			productName = voice_buddyTests;
-			productReference = 00E356EE1AD99517003FC87E /* voice_buddy_parentTests.xctest */;
+			productReference = 00E356EE1AD99517003FC87E /* voice_buddy_parentTest.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		13B07F861A680F5B00A75B9A /* voice_buddy_parent */ = {
@@ -226,7 +226,7 @@
 			);
 			name = voice_buddy_parent;
 			productName = voice_buddy;
-			productReference = 13B07F961A680F5B00A75B9A /* voice_buddy_parent_parent.app */;
+			productReference = 13B07F961A680F5B00A75B9A /* voice_buddy_parent.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -474,7 +474,7 @@
 					"$(inherited)",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = voice_buddy_parentTest;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/voice_buddy_parent.app/voice_buddy_parent";
 			};
 			name = Debug;
@@ -499,7 +499,7 @@
 					"$(inherited)",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = voice_buddy_parentTest;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/voice_buddy_parent.app/voice_buddy_parent";
 			};
 			name = Release;
@@ -525,10 +525,11 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.voice-buddy_parent";
-				PRODUCT_NAME = voice_buddy_parent_parent;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.voice-buddy-parent";
+				PRODUCT_NAME = voice_buddy_parent;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -553,9 +554,10 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.voice-buddy_parent";
-				PRODUCT_NAME = voice_buddy_parent_parent;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.voice-buddy-parent";
+				PRODUCT_NAME = voice_buddy_parent;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
